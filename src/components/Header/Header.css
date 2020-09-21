@@ -1,0 +1,17 @@
+.header {
+    height: 100px;
+    display: flex;
+    background-color: gray;
+}
+
+.header-logo {
+    width: 500px;
+}
+
+.header-volume {
+    border-left: 3px solid whitesmoke;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
