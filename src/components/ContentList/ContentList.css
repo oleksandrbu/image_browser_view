@@ -1,0 +1,21 @@
+.contentlist {
+    padding: 25px 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.contentlist h1 {
+    text-align: center;
+}
+
+.contentlist a {
+    background-color: #cccccc;
+    border-top: 1px solid white;
+}
+
+.contentlist a:hover{
+    color: white;
+    background-color: black;
+    border-top: 1px solid white;
+}

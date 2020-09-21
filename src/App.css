@@ -1,1 +1,11 @@
+#root {
+    position: relative;
+}
 
+main {
+    padding-top: 8%;
+}
+
+a , a:active, a:visited {
+    color: black;
+}

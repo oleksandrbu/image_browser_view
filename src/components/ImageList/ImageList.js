@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 
 import "./ImageList.css"
 
+const pathToDirectory = "/images/"
+
 function ImageList (props){
     return (
         <div className="imagelist">
@@ -11,7 +13,7 @@ function ImageList (props){
                     img => {
                         return (
                             <Link key={img.id} to={`${props.path}/${img.id}`}>
-                                <img src={img.path} alt={img.path}/>
+                                <img src={pathToDirectory + img.path} alt={img.path}/>
                             </Link>
                         )
                     }
