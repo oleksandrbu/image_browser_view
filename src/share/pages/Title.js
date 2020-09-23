@@ -1,8 +1,12 @@
 import React from 'react';
-import DefaultContentList from './defaults/DefaultContentList';
+
+import ContentList from "../components/ContentList/ContentList"
+import useContentList from "./hooks/useContentList"
 
 function Title(props){
-    return <DefaultContentList pathname={props.location.pathname} path={props.location.pathname} title="Title List"/>
+    const path = props.location.pathname
+
+    return <ContentList elements={useContentList(path)} pathname={path} header="Title List"/>
 }
 
 export default Title

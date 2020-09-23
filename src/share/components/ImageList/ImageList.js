@@ -10,7 +10,7 @@ function ImageList (props){
                 props.images.map(
                     img => {
                         return (
-                            <Link key={img.id} to={`${props.path}/${img.id}`}>
+                            <Link key={img.id} to={`${props.pathname}/${img.id}`}>
                                 <img src={"/images/" + img.path} alt={img.path}/>
                             </Link>
                         )

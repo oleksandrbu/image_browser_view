@@ -1,8 +1,12 @@
 import React from 'react';
-import DefaultContentList from './defaults/DefaultContentList';
+
+import ContentList from "../components/ContentList/ContentList"
+import useContentList from "./hooks/useContentList"
 
 function Character(props){
-    return <DefaultContentList pathname={props.location.pathname} path={props.location.pathname} title="Character List"/>
+    const path = props.location.pathname
+
+    return <ContentList elements={useContentList(path)} pathname={path} header="Character List"/>
 }
 
 export default Character

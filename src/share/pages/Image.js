@@ -1,8 +1,13 @@
 import React from 'react';
-import DefaultImageList from './defaults/DefaultImageList';
+
+import ImageList from "../components/ImageList/ImageList"
+
+import useImageList from "./hooks/useImageList"
 
 function Image(props){
-    return <DefaultImageList path={props.location.pathname}/>
+    const path = props.location.pathname
+
+    return <ImageList images={useImageList(path)} pathname={path}/>
 }
 
 export default Image
