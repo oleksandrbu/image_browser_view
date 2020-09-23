@@ -2,13 +2,11 @@ import React from 'react'
 
 import "./ImageSheet.css"
 
-const pathToDirectory = "/images/"
-
 function ImageSheet(props){
     return (
         <div className="imagesheet">
             <div className="imagesheet-image">
-                <img src={pathToDirectory + props.image.path} alt=""/>
+                <img src={"/images/" + props.image.path} alt=""/>
             </div>
             <div className="imagesheet-description">
                 <span>Width: {props.image.width}</span>

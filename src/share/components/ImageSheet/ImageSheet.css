@@ -4,12 +4,17 @@
 }
 
 .imagesheet-image {
-    background-color: cadetblue;
     flex: 4 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagesheet-image img {
+    max-width: 50%;
+    border: 1px solid black;
 }
 
 .imagesheet-description {
-    background-color: coral;
     flex: 1 1 100px;
     display: flex;
     flex-flow: column;

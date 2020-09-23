@@ -1,6 +1,5 @@
 .imagelist {
     padding: 25px 100px;
-    background-color: silver; 
     display: flex;
     flex-flow: row wrap;
 }

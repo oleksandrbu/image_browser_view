@@ -1,5 +1,5 @@
 .contentlist {
-    padding: 25px 100px;
+    width: 100%;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -10,12 +10,11 @@
 }
 
 .contentlist a {
-    background-color: #cccccc;
+    background-color: #B1ADD4;
     border-top: 1px solid white;
 }
 
 .contentlist a:hover{
-    color: white;
-    background-color: black;
+    background-color: #5E5799;
     border-top: 1px solid white;
 }

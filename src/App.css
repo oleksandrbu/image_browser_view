@@ -2,8 +2,12 @@
     position: relative;
 }
 
-main {
-    padding-top: 8%;
+main{
+    background-color: #DBD9ED;
+    margin: 6% 15%;
+    padding: 2% 5%;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
 a , a:active, a:visited {

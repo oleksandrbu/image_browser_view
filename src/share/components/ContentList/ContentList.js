@@ -13,7 +13,7 @@ function ContentList(props){
                 props.elements.map(
                     el => {
                         return (
-                            <Link key={el.id} to={`${props.path}/${el.id}`}>
+                            <Link key={el.id} to={`${props.pathname}/${el.id}`}>
                                 <span>{el.name}</span>
                             </Link>
                         )

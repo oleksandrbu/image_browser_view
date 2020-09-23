@@ -1,0 +1,15 @@
+.avatar {
+    padding: 1%;
+    width: 25%;
+    min-height: 300px;
+    display: flex;
+    justify-content: top;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.avatar img{
+    background-color: #DBD9ED;
+    width: 100%;
+    min-height: 50px;
+}
