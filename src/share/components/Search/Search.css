@@ -1,0 +1,36 @@
+.search {
+    padding: 10px;
+}
+
+.search div{
+    display: flex;
+}
+
+.search form{
+    flex-flow: column nowrap;
+}
+
+.search h2 {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.search span {
+    min-width: 50px;
+}
+.search input {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.search button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.invisible {
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}

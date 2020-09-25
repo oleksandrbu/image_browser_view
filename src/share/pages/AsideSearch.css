@@ -1,0 +1,28 @@
+aside{
+    position: fixed;
+    background-color: brown;
+    top: 30%;
+    border: 1px solid black;
+    border-left: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+aside>div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+aside h1{
+    margin: 0;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: 100;
+    text-align: justify;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}

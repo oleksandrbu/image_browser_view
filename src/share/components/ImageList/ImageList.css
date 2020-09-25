@@ -2,17 +2,15 @@
     padding: 25px 100px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center
 }
 
 .imagelist a {
     margin: 5px 10px;
     display: flex;
-    justify-content: center;
-    flex: 1 1 300px;
 }
 
 .imagelist img {
     background-color: yellow;
     height: 200px;
-    max-width: 300px;   
 }
